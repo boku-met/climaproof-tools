@@ -3,15 +3,9 @@ channels:
   - conda-forge
 dependencies:
   - python=3.6
+  - xesmf==0.3.0
+  - esmpy==8.0.1
   - xarray==0.11.3
   - iris==2.2
-  - xesmf==0.1.1
-  - jupyter=1.0
-  - matplotlib=3.0.3
-  - netcdf4
-  - ipywidgets
-  - bokeh
-  - holoviews
-  - geoviews
-  - pyqt
-  - nodejs
+  - geoviews==1.7.0
+  - nodejs==12.18.3

@@ -20,8 +20,8 @@ RUN apt-get update && \
 #
 #COPY ./mst /mst
 
-COPY ./environment_p36.yml .
-RUN /opt/conda/bin/conda env create -n p36 -f environment_p36.yml
+COPY ./environment_tools.yml .
+RUN /opt/conda/bin/conda env create -n p36 -f environment_tools.yml
 RUN /opt/conda/bin/conda clean -ay
 RUN echo "source activate p36" > ~/.bashrc
 ENV PATH /opt/conda/envs/p36/bin:$PATH
