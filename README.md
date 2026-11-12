@@ -1,5 +1,5 @@
-# climaproof-tools
+# DEPRECATED: climaproof-tools
 
-This repository contains the ClimaProof Model Selection Tool and the Downscaling Tool. 
+The tools, scripts and docs availbale here have to be considered stale and deprecated. Only use them for comparison and compatibility.
 
-Please refer to the documentation under https://github.com/boku-met/climaproof-docs for more information about the tool and how to use it.
+A new version of the dataset and tools has been developed and will supersede this repo shortly.
